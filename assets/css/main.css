@@ -1,0 +1,38 @@
+@-ms-viewport {
+    width: device-width;
+}
+
+html, body {
+    box-sizing: border-box;
+    max-width: 100%;
+    scroll-behavior: smooth;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+    margin: 0;
+}
+
+@media screen and (max-width: 480px) {
+    html, body {
+        min-width: 320px;
+    }
+}
+
+/* fonts */
+
+/* global */
+
+a {
+    cursor: pointer;
+    text-decoration: none;
+}
+h1, h2, h3, h4, h5, h6, p {
+    cursor: default;
+}
+
+/* header */
+
+/* footer */
+
+/* responsive */
