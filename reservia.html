@@ -9,32 +9,32 @@
     </head>
 
     <body>
-        <div class="pageLayout">
+        <div class="page grid">
 
-            <nav>
+            <nav class="grid">
                 <div class="logo">
                     <img src="images/logo/Reservia.svg" alt="Logo Reservia">
                 </div>
-                <div class="navLink">
+                <div class="navLink centered">
                     <a href="#"><strong>S'inscrire</strong></a>
                 </div>
-                <div class="navLink">
+                <div class="navLink centered">
                     <a href="#main">Hébergements</a>
                 </div>
-                <div class="navLink">
+                <div class="navLink centered">
                     <a href="#activities" class="unactive">Activités</a>
                 </div>
             </nav>
 
-            <header>
+            <header class="grid">
                 <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
                 <p>En plein centre ville ou en pleine nature</p>
-                <div id="search">
+                <div id="search" class="grid">
                     <div class="centered"><i class="fas fa-map-marker-alt"></i></div>
                     <input type="search" name="search" id="searchField" placeholder="Marseille, France">
                     <button><span class="btnText">Rechercher</span><span class="btnIcon centered"><i class="fas fa-search"></i></span></button>
                 </div>
-                <div id="filters">
+                <div id="filters" class="centered">
                     <h2>Filtres</h2>
                     <div class="filter centered">
                         <div class="filterIcon centered"><i class="fas fa-money-bill-wave"></i></div>
@@ -58,11 +58,11 @@
                 </div>
             </header>
 
-            <main id="main">
-                <section id="results">
+            <main id="main" class="grid">
+                <section id="results" class="grid">
                     <h2>Hébergements à Marseille</h2>
-                    <div class="grid">
-                        <article class="resultCard">
+                    <div class="mosaic grid">
+                        <article class="resultCard grid">
                             <img src="images/Untitled.png" alt="Photo Auberge la Cannebière">
                             <div class="info">
                                 <h3>Auberge la Cannebière</h3>
@@ -76,7 +76,7 @@
                                 </div>
                             </div>
                         </article>
-                        <article class="resultCard">
+                        <article class="resultCard grid">
                             <img src="images/Untitled.png" alt="Photo Hôtel du port">
                             <div class="info">
                                 <h3>Hôtel du port</h3>
@@ -90,7 +90,7 @@
                                 </div>
                             </div>
                         </article>
-                        <article class="resultCard">
+                        <article class="resultCard grid">
                             <img src="images/Untitled.png" alt="Photo Hôtel les mouettes">
                             <div class="info">
                                 <h3>Hôtel les mouettes</h3>
@@ -104,7 +104,7 @@
                                 </div>
                             </div>
                         </article>
-                        <article class="resultCard">
+                        <article class="resultCard grid">
                             <img src="images/Untitled.png" alt="Photo Hôtel de la mer">
                             <div class="info">
                                 <h3>Hôtel de la mer</h3>
@@ -118,7 +118,7 @@
                                 </div>
                             </div>
                         </article>
-                        <article class="resultCard">
+                        <article class="resultCard grid">
                             <img src="images/Untitled.png" alt="Photo Auberge le panier">
                             <div class="info">
                                 <h3>Auberge le panier</h3>
@@ -132,7 +132,7 @@
                                 </div>
                             </div>
                         </article>
-                        <article class="resultCard">
+                        <article class="resultCard grid">
                             <img src="images/Untitled.png" alt="Photo Hôtel chez Amina">
                             <div class="info">
                                 <h3>Hôtel chez Amina</h3>
@@ -149,13 +149,13 @@
                     </div>
                     <a href="#">plus</a>
                 </section>
-                <section id="popular">
+                <section id="popular" class="grid">
                     <div class="text">
                         <h2>Les plus populaires</h2>
                         <i class="fas fa-chart-line"></i>
                     </div>
-                    <div class="grid">
-                        <article class="popularCard">
+                    <div class="mosaic grid">
+                        <article class="popularCard grid">
                             <img src="images/Untitled.png" alt="Photo Hôtel Le soleil du matin">
                             <div class="info">
                                 <h3>Hôtel Le soleil du matin</h3>
@@ -169,7 +169,7 @@
                                 </div>
                             </div>
                         </article>
-                        <article class="popularCard">
+                        <article class="popularCard grid">
                             <img src="images/Untitled.png" alt="Photo Au coeur de l'eau Chambres d'hôtes">
                             <div class="info">
                                 <h3>Au coeur de l'eau Chambres d'hôtes</h3>
@@ -183,7 +183,7 @@
                                 </div>
                             </div>
                         </article>
-                        <article class="popularCard">
+                        <article class="popularCard grid">
                             <img src="images/Untitled.png" alt="Photo Hôtel Tout bleu et blanc">
                             <div class="info">
                                 <h3>Hôtel Tout bleu et blanc</h3>
@@ -201,37 +201,37 @@
                 </section>
             </main>
 
-            <section id="activities">
+            <section id="activities" class="grid">
                 <h2>Activités à Marseille</h2>
-                <div class="grid">
-                    <article class="activityCard">
+                <div class="mosaic grid">
+                    <article class="activityCard grid">
                         <img src="images/Untitled.png" alt="Photo Vieux Port">
                         <h3>Vieux Port</h3>
                     </article>
-                    <article class="activityCard">
+                    <article class="activityCard grid">
                         <img src="images/Untitled.png" alt="Photo Fort de Pomègues">
                         <h3>Fort de Pomègues</h3>
                     </article>
-                    <article class="activityCard">
+                    <article class="activityCard grid">
                         <img src="images/Untitled.png" alt="Photo Îles de Frioul">
                         <h3>Îles de Frioul</h3>
                     </article>
-                    <article class="activityCard">
+                    <article class="activityCard grid">
                         <img src="images/Untitled.png" alt="Photo Parc National des Calanques">
                         <h3>Parc National des Calanques</h3>
                     </article>
-                    <article class="activityCard">
+                    <article class="activityCard grid">
                         <img src="images/Untitled.png" alt="Photo Notre-Dame de la Garde">
                         <h3>Notre-Dame de la Garde</h3>
                     </article>
-                    <article class="activityCard">
+                    <article class="activityCard grid">
                         <img src="images/Untitled.png" alt="Photo Parc Longchamp">
                         <h3>Parc Longchamp</h3>
                     </article>
                 </div>
             </section>
 
-            <footer>
+            <footer class="grid">
                 <article>
                     <h3>A propos</h3>
                     <ul>
