@@ -91,7 +91,7 @@ header { grid-template-columns: 1fr; gap: 20px; margin: 0 30px; }
     /* -- search -- */
 
     #search { grid-template-columns: 47px 200px 114px; height: 47px; }
-    
+
         #search > div {
             background-color: #eeeeee;
             border-top-left-radius: 11px;
@@ -106,7 +106,7 @@ header { grid-template-columns: 1fr; gap: 20px; margin: 0 30px; }
         padding-left: 17px; }
 
         ::placeholder { opacity: 1; color: grey; font-size: 14px; }
-        
+
     button {
         background-color: #0065fc;
         color: #ffffff;
@@ -122,7 +122,7 @@ header { grid-template-columns: 1fr; gap: 20px; margin: 0 30px; }
     #filters { justify-content: unset; flex-wrap: wrap; }
 
         #filters h3 { margin-right: 17px; }
-        
+
         #filters p {
             font-size: 14px;
             font-weight: 600;
@@ -175,21 +175,21 @@ main { grid-template-columns: 2fr 1fr; gap: 30px; margin: 0 30px; }
     padding: 7px 4px 4px 14px; }
 
 .fa-star { font-size: 13px; color: #0065fc; }
-    
+
     .off { color: #bbbbbb; }
 
         /* -- results -- */
-        
+
         #results .card { grid-template-columns: 1fr; grid-template-rows: 114px 84px; height: 100%; }
 
         /* -- popular -- */
 
         .text { justify-content: space-between; }
-            
+
         .fa-chart-line { font-size: 20px; }
 
         #popular .mosaic { grid-template-columns: 1fr; }
-        
+
         #popular .card { grid-template-columns: 1fr 2fr; grid-template-rows: 117px; height: 100%; }
 
 /* ---- activities ---- */
@@ -204,11 +204,11 @@ main { grid-template-columns: 2fr 1fr; gap: 30px; margin: 0 30px; }
     #activities .mosaic > :nth-child(4) { grid-column: 3; grid-row: 1 / span 10; }
     #activities .mosaic > :nth-child(5) { grid-column: 4; grid-row: 1 / span 4; }
     #activities .mosaic > :nth-child(6) { grid-column: 4; grid-row: 6 / span 5; }
-    
+
 #activities .card { grid-template-rows: auto 44px; align-items: center; padding: 0; }
 
         #activities .card h3 { margin: 0 14px; }
-        
+
 /* ---- footer ---- */
 
 footer {
@@ -227,7 +227,7 @@ li { padding: 0 0 7px 0; }
 
 @media screen and (max-width: 1100px) {
     main { grid-template-columns: 1fr; }
-    
+
     #popular { grid-row: 1; }
 
         #popular .mosaic { grid-template-columns: repeat(3, 3fr); }
@@ -237,13 +237,13 @@ li { padding: 0 0 7px 0; }
     nav > :nth-child(2) { grid-column: 4; }
     nav > :nth-child(3) { grid-column: 2; }
     nav > :nth-child(4) { grid-column: 3; }
-    
+
     #results .mosaic, #activities .mosaic { grid-template-columns: repeat(2, 2fr); }
 
     #popular .mosaic { grid-template-columns: 1fr; }
 
     #activities .mosaic { gap: 44px; }
-    
+
         #activities .mosaic > :nth-child(n) { grid-column: unset; grid-row: span 3; }
 
     footer { padding: 30px; }
@@ -251,7 +251,7 @@ li { padding: 0 0 7px 0; }
 
 @media screen and (max-width: 570px) {
     nav, main { margin: 0; }
-    
+
     /* -- nav -- */
 
     nav { grid-template-columns: repeat(2, 2fr); grid-template-rows: repeat(2, 2fr); }
@@ -283,7 +283,7 @@ li { padding: 0 0 7px 0; }
     #results { background-color: transparent; }
 
     #results .mosaic, #activities .mosaic { grid-template-columns: 1fr; }
-        
+
     /* -- footer -- */
 
     footer { grid-template-columns: 1fr; row-gap: 20px; justify-items: unset; }
@@ -293,6 +293,6 @@ li { padding: 0 0 7px 0; }
     html, body { min-width: 320px; }
 
     #page { gap: 0; }
-
+    
     header, #results, #popular, #activities, footer { padding: 30px 17px; margin: 0; }
 }
