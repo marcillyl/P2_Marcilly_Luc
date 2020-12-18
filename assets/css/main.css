@@ -276,6 +276,8 @@ li { padding: 0 0 7px 0; }
 
     .btnIcon { display: initial; }
 
+    #filters h3 { width: 100%; margin-bottom: 7px; }
+
     /* -- main -- */
 
     main { gap: 0; }
